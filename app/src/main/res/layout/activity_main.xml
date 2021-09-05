@@ -22,7 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@={myName.name}"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        tools:text="Awais Mansha"/>
 
     <EditText
         android:id="@+id/nickname_edit"
@@ -33,7 +34,9 @@
         android:ems="10"
         android:hint="@string/what_is_your_nickname"
         android:inputType="textPersonName|textImeMultiLine"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColorHint="#78909C"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/button"
